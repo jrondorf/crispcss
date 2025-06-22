@@ -1,0 +1,11 @@
+{
+  "name": "crispcss",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "node scripts/watch.js",
+    "new": "node scripts/generate-component.js"
+  },
+  "devDependencies": {}
+}
