@@ -1,0 +1,11 @@
+.crisp-button {
+  padding: 0.5em 1em;
+  background-color: var(--crisp-primary, #007bff);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.crisp-button:hover {
+  background-color: var(--crisp-primary-hover, #0056b3);
+}

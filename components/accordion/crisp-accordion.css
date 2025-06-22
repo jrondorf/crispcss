@@ -1,0 +1,18 @@
+.crisp-accordion {
+  border: 1px solid #ddd;
+}
+.crisp-accordion-item {
+  border-top: 1px solid #ddd;
+}
+.crisp-accordion-header {
+  cursor: pointer;
+  padding: 1em;
+  background: #f0f0f0;
+}
+.crisp-accordion-body {
+  display: none;
+  padding: 1em;
+}
+.crisp-accordion-item.active .crisp-accordion-body {
+  display: block;
+}

@@ -1,0 +1,13 @@
+:root {
+  --crisp-breakpoint-sm: 576px;
+  --crisp-breakpoint-md: 768px;
+  --crisp-breakpoint-lg: 992px;
+  --crisp-breakpoint-xl: 1200px;
+}
+
+@media (max-width: 576px) {
+  .crisp-hide-sm { display: none !important; }
+}
+@media (min-width: 577px) {
+  .crisp-show-sm { display: none !important; }
+}
