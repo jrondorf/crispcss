@@ -9,3 +9,64 @@
 .crisp-button:hover {
   background-color: var(--crisp-primary-hover, #0056b3);
 }
+.crisp-button:disabled {
+  background-color: var(--crisp-primary-disabled, #cccccc);
+  cursor: not-allowed;
+}
+.crisp-button:focus {
+  outline: 2px solid var(--crisp-primary-focus, #0056b3);
+  outline-offset: 2px;
+}
+.crisp-button:active {
+  background-color: var(--crisp-primary-active, #004085);
+  box-shadow: inset 0 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+.crisp-button .icon {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.crisp-button .icon svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+.crisp-button .label {
+  font-size: 1em;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.crisp-button .label span {
+  display: inline-block;
+  line-height: 1.2; /* Adjust line-height for better vertical alignment */
+  vertical-align: middle;
+}
+.crisp-button .label span::before {
+  content: attr(data-label);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+}
+.crisp-button .label span::after {
+  content: attr(data-label);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+}
+.crisp-button .label span::before,
+.crisp-button .label span::after {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+}

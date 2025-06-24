@@ -5,7 +5,10 @@
   "scripts": {
     "build": "node scripts/build.js",
     "watch": "node scripts/watch.js",
-    "new": "node scripts/generate-component.js"
+    "new": "node scripts/generate-component.js",
+    "dev": "http-server . -p 8080 -c-1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^14"
+  }
 }
