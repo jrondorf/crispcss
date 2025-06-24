@@ -2,10 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 const componentsDir = './components';
-const cssOut = './css/crisp.css';
-const jsOut = './js/crisp.js';
-const cssMinOut = './css/crisp.min.css';
-const jsMinOut = './js/crisp.min.js';
+const cssOut = './dist/css/crisp.css';
+const jsOut = './dist/js/crisp.js';
+const cssMinOut = './dist/css/crisp.min.css';
+const jsMinOut = './dist/js/crisp.min.js';
 
 const getFiles = (ext) =>
   fs.readdirSync(componentsDir).flatMap((comp) => {
