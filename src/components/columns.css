@@ -1,0 +1,36 @@
+/ crisp-css / crisp-css / src / components / columns.css
+
+.crisp-columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.crisp-column {
+  padding: 15px;
+  flex: 1 0 0%; /* Default to full width */
+}
+
+@media (min-width: 576px) {
+  .crisp-column {
+    flex: 1 0 50%; /* Two columns on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .crisp-column {
+    flex: 1 0 33.33%; /* Three columns on medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .crisp-column {
+    flex: 1 0 25%; /* Four columns on large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .crisp-column {
+    flex: 1 0 20%; /* Five columns on extra large screens */
+  }
+}

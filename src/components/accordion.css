@@ -1,0 +1,45 @@
+.crisp-css/src/components/accordion.css
+
+.crisp-accordion {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.crisp-accordion-item {
+  border: none;
+}
+
+.crisp-accordion-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.crisp-accordion-button {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.crisp-accordion-button:focus {
+  outline: none;
+}
+
+.crisp-accordion-button:not(.collapsed) {
+  color: #0056b3;
+}
+
+.crisp-accordion-collapse {
+  display: none;
+}
+
+.crisp-accordion-collapse.show {
+  display: block;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+}

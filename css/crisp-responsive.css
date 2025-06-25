@@ -1,8 +1,0 @@
-@media (max-width: 768px) {
-  .crisp-hide-sm { display: none !important; }
-  .crisp-show-sm { display: block !important; }
-}
-@media (min-width: 769px) {
-  .crisp-hide-lg { display: none !important; }
-  .crisp-show-lg { display: block !important; }
-}

@@ -1,0 +1,59 @@
+.crisp-css/src/components/forms.css
+
+.crisp-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.crisp-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.crisp-form input,
+.crisp-form select,
+.crisp-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.crisp-form input:focus,
+.crisp-form select:focus,
+.crisp-form textarea:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.crisp-form .form-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.crisp-form .form-success {
+    color: #28a745;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.crisp-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.crisp-form .form-group.required label::after {
+    content: " *";
+    color: #dc3545;
+}
+
+.crisp-form .form-group .form-control {
+    width: 100%;
+}
+
+.crisp-form .form-group .form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+}

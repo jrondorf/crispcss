@@ -1,0 +1,89 @@
+/ crisp-css / crisp-css / src / components / responsive.css
+
+.crisp-responsive {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crisp-hidden {
+  display: none !important;
+}
+
+.crisp-visible {
+  display: block !important;
+}
+
+@media (max-width: 576px) {
+  .crisp-col-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .crisp-col-sm-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .crisp-col-sm-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .crisp-col-md-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .crisp-col-md-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .crisp-col-md-3 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .crisp-col-lg-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .crisp-col-lg-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .crisp-col-lg-3 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  .crisp-col-lg-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .crisp-col-xl-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .crisp-col-xl-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .crisp-col-xl-3 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  .crisp-col-xl-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .crisp-col-xl-5 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

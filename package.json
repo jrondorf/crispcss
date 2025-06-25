@@ -1,10 +1,29 @@
 {
-  "name": "crispcss",
+  "name": "crisp-css",
   "version": "1.0.0",
+  "description": "A lightweight CSS framework with a focus on simplicity and usability, built on Bootstrap 5.3.7.",
+  "main": "dist/crisp.css",
   "scripts": {
-    "dev": "http-server preview -p 3000"
+    "build": "node scripts/build.js",
+    "start": "http-server preview -o"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "responsive",
+    "darkmode",
+    "components"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.0.0"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "autoprefixer": "^10.0.0",
+    "cssnano": "^5.0.0",
+    "esbuild": "^0.25.5",
+    "postcss": "^8.0.0",
+    "postcss-cli": "^9.0.0"
   }
 }

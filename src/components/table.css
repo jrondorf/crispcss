@@ -1,0 +1,70 @@
+/ crisp-css / crisp-css / src / components / table.css
+
+.crisp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.crisp-table th,
+.crisp-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+}
+
+.crisp-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.crisp-table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.crisp-table .table-primary {
+    background-color: #cfe2ff;
+}
+
+.crisp-table .table-secondary {
+    background-color: #e2e3e5;
+}
+
+.crisp-table .table-success {
+    background-color: #d1e7dd;
+}
+
+.crisp-table .table-danger {
+    background-color: #f8d7da;
+}
+
+.crisp-table .table-warning {
+    background-color: #fff3cd;
+}
+
+.crisp-table .table-info {
+    background-color: #d1ecf1;
+}
+
+.crisp-table .table-light {
+    background-color: #fefefe;
+}
+
+.crisp-table .table-dark {
+    background-color: #d3d3d3;
+}
+
+.crisp-table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.crisp-table .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.crisp-table .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}

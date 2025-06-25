@@ -1,1 +1,0 @@
-// No interactivity required for navbar at this time

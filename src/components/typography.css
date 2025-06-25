@@ -1,0 +1,77 @@
+.crisp-css/src/components/typography.css
+
+.crisp {
+    --font-family-base: 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 1rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --line-height-base: 1.5;
+    --color-body: #212529;
+    --color-heading: #343a40;
+}
+
+.crisp h1, .crisp h2, .crisp h3, .crisp h4, .crisp h5, .crisp h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-family-base);
+    color: var(--color-heading);
+}
+
+.crisp h1 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp h2 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp h3 {
+    font-size: 1.75rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp h4 {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp h5 {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp h6 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.crisp p {
+    margin: 0 0 1rem;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-body);
+}
+
+.crisp ul, .crisp ol {
+    margin: 0 0 1rem;
+    padding-left: 1.5rem;
+}
+
+.crisp li {
+    margin-bottom: 0.5rem;
+}
+
+.crisp blockquote {
+    margin: 0 0 1rem;
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--color-heading);
+    color: var(--color-body);
+    font-style: italic;
+}
+
+.crisp small {
+    font-size: 0.875em;
+    color: var(--color-body);
+}
