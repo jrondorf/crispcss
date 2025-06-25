@@ -1,0 +1,10 @@
+:root {
+  --crisp-bg: #fff;
+  --crisp-text: #000;
+}
+.crisp-dark {
+  --crisp-bg: #121212;
+  --crisp-text: #eee;
+  background: var(--crisp-bg);
+  color: var(--crisp-text);
+}

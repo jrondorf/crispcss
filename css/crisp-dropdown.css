@@ -1,0 +1,13 @@
+.crisp-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.crisp-dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+.crisp-dropdown.open .crisp-dropdown-menu {
+  display: block;
+}

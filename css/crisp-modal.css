@@ -1,0 +1,18 @@
+.crisp-modal-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.crisp-modal {
+  background: #fff;
+  padding: 1em;
+  margin: 10% auto;
+  width: 90%;
+  max-width: 500px;
+}
+.crisp-modal-backdrop.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

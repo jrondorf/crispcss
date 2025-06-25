@@ -1,0 +1,12 @@
+.crisp-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: var(--crisp-primary, #3498db);
+  color: white;
+}
+.crisp-navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1em;
+}

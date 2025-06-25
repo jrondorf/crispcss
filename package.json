@@ -1,14 +1,10 @@
 {
   "name": "crispcss",
-  "version": "0.1.0",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
-    "build": "node scripts/build.js",
-    "watch": "node scripts/watch.js",
-    "new": "node scripts/generate-component.js",
-    "dev": "http-server . -p 8080 -c-1"
+    "dev": "http-server preview -p 3000"
   },
   "devDependencies": {
-    "http-server": "^14"
+    "http-server": "^14.1.1"
   }
 }
